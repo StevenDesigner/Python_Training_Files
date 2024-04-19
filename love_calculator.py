@@ -16,3 +16,11 @@ love_percentage = int(str(count_true) + str(count_love))
 
 # Display the result
 print(f"The love percentage between {name1.capitalize()} and {name2.capitalize()} is {love_percentage}%.")
+
+# Compare the love percentage and print message accordingly
+if love_percentage > 80:
+    print("Best pair!")
+elif love_percentage > 60:
+    print("You fight often.")
+else:
+    print("You're like coke and mentos.")
