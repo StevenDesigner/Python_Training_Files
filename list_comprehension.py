@@ -9,7 +9,7 @@ for n in numbers:
 new_list = [n + 1 for n in numbers]
 
 #String as List
-name = "Angela"
+name = "steve"
 letters_list = [letter for letter in name]
 
 #Range as List
